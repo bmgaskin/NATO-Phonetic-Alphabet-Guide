@@ -52,8 +52,7 @@ NATO_Alphabet["9"]="Niner"
 # Accept input and translate to NATO Alphabet
 
 line_of_text=input("Enter text to translate:")
-print("Translating: ",line_of_text.upper())
-print()
+print("Translating: ",line_of_text.upper(),"\n")
 i=1
 allow_one_blank=False
 
