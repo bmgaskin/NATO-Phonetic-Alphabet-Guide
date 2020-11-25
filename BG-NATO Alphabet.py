@@ -56,12 +56,20 @@ line_of_text=input("Enter text to translate:")
 print("Translating: ",line_of_text.upper())
 print()
 i=1
+allow_one_blank=False
+
 for character in line_of_text:
     try:
         print(i,"(",character.upper(),")","...",NATO_Alphabet[character.upper()])
         i +=1
+        allow_one_blank=True
     except(KeyError, ValueError):
-        pass
+        if character.upper()==" ":
+            if allow_one_blank:
+                print()
+                allow_one_blank=False
+        else:
+            pass
     
 
 
