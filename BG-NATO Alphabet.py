@@ -1,13 +1,12 @@
-# NATO Phonetic Alphabet Guide - v1
+# NATO Phonetic Alphabet Guide
+# Version: 1.0
 # Date: 24-NOV-2020
 # Developed by: Billy Gaskin
 # Gasware Enterprises
 #
 # Reference: https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
 
-print()
-print("NATO Phonetic Alphabet Guide")
-print()
+print("**\n** NATO Phonetic Alphabet Guide", "\n**\n")
 
 # Load Dictionary containing the NATO Phonetic Alphabet
 
@@ -68,8 +67,10 @@ for character in line_of_text:
             if allow_one_blank:
                 print()
                 allow_one_blank=False
-        else:
-            pass
-    
+
+input("\nCompleted! Press Enter to quit...")
+
+# End of program...
+
 
 
