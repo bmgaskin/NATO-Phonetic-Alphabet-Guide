@@ -1,8 +1,9 @@
-# NATO Phonetic Alphabet Guide
-# Version: 1.0
-# Date: 24-NOV-2020
-# Developed by: Billy Gaskin
-# Gasware Enterprises
+################################################
+# NATO Phonetic Alphabet Guide                 #
+# Version: 1.0                                 #
+# Date: 24-NOV-2020                            #
+# Developed by: Billy Gaskin                   #
+################################################
 #
 # Reference: https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
 
@@ -67,7 +68,7 @@ for character in line_of_text:
                 print()
                 allow_one_blank=False
 
-input("\nCompleted! Press Enter to quit...")
+input("\nFinished! Press Enter to quit.")
 
 # End of program...
 
