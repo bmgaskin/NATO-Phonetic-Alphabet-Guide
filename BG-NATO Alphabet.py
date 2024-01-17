@@ -1,7 +1,7 @@
 # NATO Phonetic Alphabet Guide                 
 # Version: 1.0                            
 # Date: 24-NOV-2020                   
-# Developed by: Billy Gaskin
+# Programmer: Billy Gaskin
 #
 # Reference: https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
 
